@@ -23,7 +23,7 @@ Here is a general description of the code structure:
 
 ## How to use
 
-This code is developed in Python 3.7 and depends on a couple of packages to work. The common first step in this sort of scenarios is creating a python virtual environment and activating it. This can be done in a wide range of methods using `venv`, `conda`, and `pipenv`. A simple approach with proper description for different platforms can be found [here](https://docs.python.org/3/tutorial/venv.html).
+This code is developed in Python 3.9 and depends on a couple of packages to work. The common first step in this sort of scenarios is creating a Python virtual environment (with Python version 3.9) and activating it. This can be done in a wide range of methods using `venv`, `conda`, and `pipenv`. A simple approach with proper description for different platforms can be found [here](https://docs.python.org/3/tutorial/venv.html).
 
 After activating the virtual environment, you should install required packages:
 

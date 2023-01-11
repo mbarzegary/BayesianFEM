@@ -120,7 +120,7 @@ if __name__=="__main__":
 
     # max_evals should be tuned
     tpe_best = fmin(fn=objective, space=space, algo=tpe_algo, trials=tpe_trials,
-                    max_evals=400, rstate= np.random.RandomState(50))
+                    max_evals=400)
 
     # dumping the pickles. they are not used in current state of the code
     pickle.dump(tpe_best, open("best.pickle", "wb"))
